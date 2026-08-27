@@ -219,18 +219,6 @@
 
   function init() {
     initTheme();
-    initNavDomain();
-  }
-
-  function initNavDomain() {
-    var navDomain = doc.getElementById('navDomain');
-    if (navDomain) {
-      navDomain.addEventListener('click', function (e) {
-        e.preventDefault();
-        e.stopPropagation();
-        window.location.href = 'https://xtxz.cc.cd';
-      });
-    }
   }
 
   if (doc.readyState === 'loading') {
