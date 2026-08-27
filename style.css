@@ -260,6 +260,15 @@ body {
   transition: color var(--transition-normal);
 }
 
+.header-tagline {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: var(--accent);
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+  transition: color var(--transition-normal);
+}
+
 .subtitle {
   font-size: 1rem;
   color: var(--text-muted);
@@ -818,6 +827,10 @@ body {
   }
 
   .subtitle {
+    font-size: 0.85rem;
+  }
+
+  .header-tagline {
     font-size: 0.85rem;
   }
 
