@@ -327,6 +327,20 @@ body {
   font-size: 1.1rem;
 }
 
+.site-link {
+  display: block;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+.site-link:hover {
+  color: var(--accent-hover);
+  text-decoration: underline;
+}
+
 .download-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
