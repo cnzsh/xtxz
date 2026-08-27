@@ -241,6 +241,28 @@ body {
   background: var(--accent-bg);
 }
 
+.version-toggle {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 18px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--text-muted);
+  background: transparent;
+  border: 1.5px dashed var(--border-color);
+  cursor: pointer;
+  transition: color var(--transition-fast), background var(--transition-fast), border-color var(--transition-fast);
+  white-space: nowrap;
+}
+
+.version-toggle:hover {
+  color: var(--accent);
+  background: var(--accent-bg);
+  border-color: var(--accent);
+}
+
 .header {
   text-align: center;
   margin-bottom: 48px;

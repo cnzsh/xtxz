@@ -217,6 +217,35 @@
     }
   });
 
+  var versionToggle = doc.getElementById('versionToggle');
+
+  if (versionToggle) {
+    var hostname = window.location.hostname;
+    var pathname = window.location.pathname;
+
+    var isOfficial = hostname === 'xtxz.cc.cd';
+    var currentPage = '';
+    if (pathname.indexOf('tutorial.html') !== -1) {
+      currentPage = 'tutorial.html';
+    } else {
+      currentPage = 'index.html';
+    }
+
+    if (isOfficial) {
+      versionToggle.textContent = '社区版';
+      versionToggle.addEventListener('click', function () {
+        var base = 'https://xtjxxz.github.io/xtxz/';
+        window.location.href = base + (currentPage === 'index.html' ? '' : currentPage);
+      });
+    } else {
+      versionToggle.textContent = '官方版';
+      versionToggle.addEventListener('click', function () {
+        var base = 'https://xtxz.cc.cd/';
+        window.location.href = base + currentPage;
+      });
+    }
+  }
+
   function init() {
     initTheme();
   }
