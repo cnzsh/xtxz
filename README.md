@@ -10,9 +10,9 @@
 
 <p align="center">
   <a href="https://xtxz.cc.cd/">🌐 官方站点</a> ·
-  <a href="https://cnzsh.github.io/xtxz/">🏠 社区站点</a> ·
+  <a href="https://xtjxxz.github.io/xtxz/">🏠 社区站点</a> ·
   <a href="https://xtxz.cc.cd/tutorial.html">📖 使用教程</a> ·
-  <a href="https://github.com/cnzsh/xtxz/issues">💬 提交需求</a>
+  <a href="https://github.com/xtjxxz/xtxz/issues">💬 提交需求</a>
 </p>
 
 ---
@@ -35,13 +35,13 @@
 | Windows 11 25H2 | 消费者版 | 全新界面设计，现代化体验 |
 | Windows 11 LTSC 2024 | 企业长期服务版 | 长期服务版，稳定可靠 |
 
-> 需要其他系统镜像？欢迎在 [Issues](https://github.com/cnzsh/xtxz/issues) 中提交需求。
+> 需要其他系统镜像？欢迎在 [Issues](https://github.com/xtjxxz/xtxz/issues) 中提交需求。
 
 ## 🚀 快速开始
 
 ### 方式一：浏览器直接下载
 
-1. 访问 [官方站点](https://xtxz.cc.cd/) 或 [社区站点](https://cnzsh.github.io/xtxz/)
+1. 访问 [官方站点](https://xtxz.cc.cd/) 或 [社区站点](https://xtjxxz.github.io/xtxz/)
 2. 找到需要的系统版本，点击 **「立即下载」**
 3. 在新页面中点击下载按钮，保存文件即可
 
@@ -75,7 +75,7 @@ xtxz/
 
 欢迎参与贡献！你可以通过以下方式帮助项目：
 
-- **提交镜像需求**：在 [Issues](https://github.com/cnzsh/xtxz/issues) 中提出你需要的系统镜像
+- **提交镜像需求**：在 [Issues](https://github.com/xtjxxz/xtxz/issues) 中提出你需要的系统镜像
 - **贡献备用源**：提供镜像备用下载源，提升下载稳定性
 - **改进代码**：Fork 本仓库，提交 Pull Request
 - **反馈问题**：发现 bug 或有改进建议，欢迎提交 Issue
